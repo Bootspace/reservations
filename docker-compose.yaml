@@ -37,3 +37,4 @@ services:
       - .:/usr/src/app
   mongo:
     image: mongo
+    command: mongod --quiet --logpath /dev/null
